@@ -30,7 +30,7 @@ body{
 }
 .main{
     background-color: rgb(84, 155, 155); padding-top: 20px; padding-bottom:30px;
-    width: 40%;  padding-left: 0px;
+    width: 100%;  padding-left: 0px;
 }
 #d{
     padding-left: 50px; color: white; font-weight: bold; 
@@ -48,7 +48,7 @@ body{
 }
 
 #g input{width: 60%; height: 50px; border-radius: 10px; font-size: 16px; background-color: hsl(71, 73%, 54%);}
-.section{ background-color: rgb(115, 194, 194); padding-top: 20px; width: 40%; padding-left: 0px;
+.section{ background-color: rgb(115, 194, 194); padding-top: 20px; width: 100%; padding-left: 0px;
      padding-bottom: 30px;}
 #h{
     font-size: large; padding-left: 50px; color: white; font-weight: bold;
