@@ -1,0 +1,87 @@
+body{
+    font-family: karla, sans-serif;
+    font-size: large;
+     padding-top: 10PX;
+    padding-right: 30px; padding-bottom: 5px;
+    background-color: hsl(179, 67%, 80%); padding-left: 30px;
+}
+.header{
+    background-color: white;  border-radius: 5px; padding-top: 15px;
+}
+#a{
+    font-size: x-large;
+    color:hsl(179, 62%, 43%);
+    font-weight: 700;
+    padding-left: 50px;
+}
+#b{
+    font-size: larger;
+    font-weight: 400px;
+    padding-top: 10px;
+    color: hsl(71, 73%, 54%);
+    padding-left: 50px;
+}
+#c{
+    font-size: 16px;
+    font-weight: 400px;
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.main{
+    background-color: rgb(84, 155, 155); padding-top: 20px; padding-bottom:30px;
+    width: 40%;  padding-left: 0px;
+}
+#d{
+    padding-left: 50px; color: white; font-weight: bold; 
+    font-size: 16px;
+}
+#e{
+    padding-left: 50px; color: cyan; font-size: small; 
+}
+#e span{font-size: x-large; font-weight: bold; color: white;}
+#f{
+    font-size: 13px; padding-left: 50px; color: rgb(233, 241, 241);
+}
+#g{
+    padding-left: 50px;
+}
+
+#g input{width: 60%; height: 50px; border-radius: 10px; font-size: 16px; background-color: hsl(71, 73%, 54%);}
+.section{ background-color: rgb(115, 194, 194); padding-top: 20px; width: 40%; padding-left: 0px;
+     padding-bottom: 30px;}
+#h{
+    font-size: large; padding-left: 50px; color: white; font-weight: bold;
+}
+#i{
+    font-size: 11px; padding-left: 50px; color: rgb(190, 229, 229);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
+@media screen and (min-width: 375px){
+    .main{
+        background-color: rgb(84, 155, 155); padding-top: 20px; padding-bottom:30px;
+        width: 100%;  padding-left: 0px;}
+    .section{ background-color: rgb(115, 194, 194); padding-top: 20px; width: 100%; padding-left: 0px;
+        padding-bottom: 30px;}
+    #g input{width: 80%; height: 50px; border-radius: 10px; font-size: 16px; background-color: hsl(71, 73%, 54%);}
+    #i{
+        font-size: 12px; padding-left: 50px; color: rgb(190, 229, 229); letter-spacing: 0px;
+    }
+}
+@media screen and (min-width: 800px){
+    #main {display: flex;}
+    .main{
+        background-color: rgb(84, 155, 155); padding-top: 20px; padding-bottom:30px;
+        width: 60%;  padding-left: 0px;
+    }
+    #g{
+        padding-left: 50px; padding-bottom: 20px;
+    }
+    .section{ background-color: rgb(115, 194, 194); padding-top: 20px; width: 60%; padding-left: 0px;
+        padding-bottom: 30px; padding-right: 0px;
+    }
+    .header{
+        background-color: white;  border-radius: 5px; padding-top: 15px;
+    }
+}
